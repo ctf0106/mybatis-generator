@@ -69,21 +69,15 @@
              <property name="enableSubPackages" value="true"/>
          </javaClientGenerator>
          <!--生成对应表及类名-->
-		 <table tableName="links" 
-			 domainObjectName="Links" 
+		 <table tableName="comment" 
+			 domainObjectName="Comment" 
 			 enableCountByExample="true" 
 			 enableUpdateByExample="true" 
 			 enableDeleteByExample="true" 
 			 enableSelectByExample="true" 
 			 selectByExampleQueryId="true">
 		 </table>
-		 <table tableName="user" 
-			 domainObjectName="User" 
-			 enableCountByExample="true" 
-			 enableUpdateByExample="true" 
-			 enableDeleteByExample="true" 
-			 enableSelectByExample="true" 
-			 selectByExampleQueryId="true">
-		 </table>
+		 
+		
      </context>
 </generatorConfiguration>
